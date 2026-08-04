@@ -1,0 +1,128 @@
+4:37:36 AM: Netlify Build                                                 
+4:37:36 AM: ────────────────────────────────────────────────────────────────
+4:37:36 AM: ​
+4:37:36 AM: ❯ Version
+4:37:36 AM:   @netlify/build 36.2.4
+4:37:36 AM: ​
+4:37:36 AM: ❯ Flags
+4:37:36 AM:   accountId: 6a718eac1a25f0044de828be
+4:37:36 AM:   baseRelDir: true
+4:37:36 AM:   buildId: 6a7196b3ad996b5a87bd7baf
+4:37:36 AM:   deployId: 6a7196b3ad996b5a87bd7bb1
+4:37:36 AM: ​
+4:37:36 AM: ❯ Current directory
+4:37:36 AM:   /opt/build/repo
+4:37:36 AM: ​
+4:37:36 AM: ❯ Config file
+4:37:36 AM:   /opt/build/repo/netlify.toml
+4:37:36 AM: ​
+4:37:36 AM: ❯ Context
+4:37:36 AM:   production
+4:37:36 AM: ​
+4:37:36 AM: build.command from netlify.toml                               
+4:37:36 AM: ────────────────────────────────────────────────────────────────
+4:37:36 AM: ​
+4:37:36 AM: $ vite build && node scripts/postbuild.mjs
+4:37:37 AM: [info] Detected `server.ts` as server entry.
+4:37:37 AM: The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+4:37:37 AM: vite v8.2.0 building client environment for production...
+4:37:37 AM: 
+4:37:39 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+4:37:39 AM: transforming...✓ 1916 modules transformed.
+4:37:39 AM: ✗ Build failed in 2.12s
+4:37:39 AM: error during build:
+4:37:39 AM: Build failed with 7 errors:
+4:37:39 AM: [UNRESOLVED_IMPORT] Could not resolve '../lib/lovable-error-reporting' in src/routes/__root.tsx
+4:37:39 AM:    ╭─[ src/routes/__root.tsx:6:36 ]
+4:37:39 AM:    │
+4:37:39 AM:  6 │ import { reportLovableError } from "../lib/lovable-error-reporting";
+4:37:39 AM:    │                                    ────────────────┬───────────────
+4:37:39 AM:    │                                                    ╰───────────────── Module not found.
+4:37:39 AM:    │
+4:37:39 AM:    │ Help: 'src/routes/__root.tsx' is imported by the following path:
+4:37:39 AM:    │         - src/routes/__root.tsx
+4:37:39 AM:    │         - src/routeTree.gen.ts
+4:37:39 AM:    │         - src/router.tsx
+4:37:39 AM:    │         - node_modules/@tanstack/start-client-core/dist/esm/client/hydrateStart.js
+4:37:39 AM:    │         - node_modules/@tanstack/start-client-core/dist/esm/client/index.js
+4:37:39 AM:    │         - node_modules/@tanstack/react-start-client/dist/esm/hydrateStart.js
+4:37:39 AM:    │         - node_modules/@tanstack/react-start-client/dist/esm/index.js
+4:37:39 AM:    │         - node_modules/@tanstack/react-start/dist/esm/client.js
+4:37:39 AM:    │         - node_modules/@tanstack/react-start/dist/plugin/default-entry/client.tsx
+4:37:39 AM: ───╯
+4:37:39 AM: [UNLOADABLE_DEPENDENCY] Could not load src/lib/synx-data
+4:37:39 AM:    ╭─[ src/routes/module.$id.tsx?tsr-split=component:6:31 ]
+4:37:39 AM:    │
+4:37:39 AM:  6 │ import { moduleDetails } from "@/lib/synx-data";
+4:37:39 AM:    │                               ────────┬────────
+4:37:39 AM:    │                                       ╰────────── No such file or directory (os error 2)
+4:37:39 AM: ───╯
+4:37:39 AM: [UNLOADABLE_DEPENDENCY] Could not load src/lib/theme
+4:37:39 AM:    ╭─[ src/routes/index.tsx?tsr-split=component:9:26 ]
+4:37:39 AM:    │
+4:37:39 AM:  9 │ import { useTheme } from "@/lib/theme";
+4:37:39 AM:    │                          ──────┬──────
+4:37:39 AM:    │                                ╰──────── No such file or directory (os error 2)
+4:37:39 AM: ───╯
+4:37:39 AM: [UNLOADABLE_DEPENDENCY] Could not load src/lib/auth
+4:37:39 AM:    ╭─[ src/routes/index.tsx?tsr-split=component:8:25 ]
+4:37:39 AM:    │
+4:37:39 AM:  8 │ import { useAuth } from "@/lib/auth";
+4:37:39 AM:    │                         ──────┬─────
+4:37:39 AM:    │                               ╰─────── No such file or directory (os error 2)
+4:37:39 AM: ───╯
+4:37:39 AM: [UNLOADABLE_DEPENDENCY] Could not load src/lib/anime
+4:37:39 AM:     ╭─[ src/routes/settings.tsx?tsr-split=component:10:43 ]
+4:37:39 AM:     │
+4:37:39 AM:  10 │ import { ANIME_POSITIONS, useAnime } from "@/lib/anime";
+4:37:39 AM:     │                                           ──────┬──────
+4:37:39 AM:     │                                                 ╰──────── No such file or directory (os error 2)
+4:37:39 AM: ────╯
+4:37:39 AM: ...
+4:37:39 AM:     at aggregateBindingErrorsIntoJsError (file:///opt/build/repo/node_modules/rolldown/dist/shared/error-nLggAzpQ.mjs:48:18)
+4:37:39 AM:     at unwrapBindingResult (file:///opt/build/repo/node_modules/rolldown/dist/shared/error-nLggAzpQ.mjs:18:128)
+4:37:39 AM:     at #build (file:///opt/build/repo/node_modules/rolldown/dist/shared/rolldown-D23fYgSS.mjs:132:34)
+4:37:39 AM:     at async buildEnvironment (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:33669:66)
+4:37:39 AM:     at async Object.build (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:34091:19)
+4:37:39 AM:     at async buildStartViteEnvironments (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/vite/planning.js:95:23)
+4:37:39 AM:     at async Object.buildApp (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/vite/plugin.js:113:8)
+4:37:39 AM:     at async Object.buildApp (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:34083:6)
+4:37:39 AM:     at async CAC.<anonymous> (file:///opt/build/repo/node_modules/vite/dist/node/cli.js:776:3) {
+4:37:39 AM:   errors: [Getter/Setter]
+4:37:39 AM: }
+4:37:39 AM: ​
+4:37:39 AM: "build.command" failed                                        
+4:37:39 AM: ────────────────────────────────────────────────────────────────
+4:37:39 AM: ​
+4:37:39 AM:   Error message
+4:37:39 AM:   Command failed with exit code 1: vite build && node scripts/postbuild.mjs (https://ntl.fyi/exit-code-1)
+4:37:39 AM: ​
+4:37:39 AM:   Error location
+4:37:39 AM:   In build.command from netlify.toml:
+4:37:39 AM:   vite build && node scripts/postbuild.mjs
+4:37:39 AM: ​
+4:37:39 AM:   Resolved config
+4:37:39 AM:   build:
+4:37:39 AM:     command: vite build && node scripts/postbuild.mjs
+4:37:39 AM:     commandOrigin: config
+4:37:39 AM:     environment:
+4:37:39 AM:       - NODE_VERSION
+4:37:39 AM:     publish: /opt/build/repo/dist/client
+4:37:39 AM:     publishOrigin: config
+4:37:39 AM:   functionsDirectory: /opt/build/repo/netlify/functions
+4:37:39 AM:   headers:
+4:37:39 AM:     - for: /assets/*
+4:37:39 AM:       values:
+4:37:39 AM:         Cache-Control: public, max-age=31536000, immutable
+4:37:39 AM:   headersOrigin: config
+4:37:39 AM:   redirects:
+4:37:39 AM:     - from: /api/proxy
+4:37:39 AM:       status: 200
+4:37:39 AM:       to: /.netlify/functions/server
+4:37:39 AM:     - from: /*
+4:37:39 AM:       status: 200
+4:37:39 AM:       to: /index.html
+4:37:39 AM:   redirectsOrigin: config
+4:37:39 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+4:37:39 AM: Failing build: Failed to build site
+4:37:40 AM: Finished processing build request in 15.815s

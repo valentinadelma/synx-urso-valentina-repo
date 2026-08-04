@@ -1,0 +1,297 @@
+3:51:00 AM: Netlify Build                                                 
+3:51:00 AM: ────────────────────────────────────────────────────────────────
+3:51:00 AM: ​
+3:51:00 AM: ❯ Version
+3:51:00 AM:   @netlify/build 36.2.4
+3:51:00 AM: ​
+3:51:00 AM: ❯ Flags
+3:51:00 AM:   accountId: 6a6f9b1bf305dda8e64ceaee
+3:51:00 AM:   baseRelDir: true
+3:51:00 AM:   buildId: 6a718bc6ce066b0008bd8611
+3:51:00 AM:   deployId: 6a718bc6ce066b0008bd8613
+3:51:00 AM: ​
+3:51:00 AM: ❯ Current directory
+3:51:00 AM:   /opt/build/repo
+3:51:00 AM: ​
+3:51:00 AM: ❯ Config file
+3:51:00 AM:   /opt/build/repo/netlify.toml
+3:51:00 AM: ​
+3:51:00 AM: ❯ Context
+3:51:00 AM:   production
+3:51:00 AM: ​
+3:51:00 AM: build.command from netlify.toml                               
+3:51:00 AM: ────────────────────────────────────────────────────────────────
+3:51:00 AM: ​
+3:51:00 AM: $ vite build && node scripts/postbuild.mjs
+3:51:01 AM: The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+3:51:02 AM: vite v8.1.5 building client environment for production...
+3:51:02 AM: 
+3:51:04 AM: transforming...✓ 1932 modules transformed.
+3:51:04 AM: rendering chunks...
+3:51:05 AM: computing gzip size...
+3:51:05 AM: dist/assets/anime-1-B1WsfqHQ.png          492.64 kB
+3:51:05 AM: dist/assets/anime-4-DaMF5dvu.png          493.37 kB
+3:51:05 AM: dist/assets/anime-3-sevUr0qs.png          504.43 kB
+3:51:05 AM: dist/assets/anime-6-BGcY2Yr8.png          554.32 kB
+3:51:05 AM: dist/assets/anime-2-D6UqrRbK.png          572.83 kB
+3:51:05 AM: dist/assets/anime-5-DQju_0zi.png          589.82 kB
+3:51:05 AM: dist/assets/styles-DW18XVO8.css           108.10 kB │ gzip:  17.56 kB
+3:51:05 AM: dist/assets/check-wi6s2pEQ.js               0.11 kB │ gzip:   0.13 kB
+3:51:05 AM: dist/assets/x-BVv6uA8j.js                   0.14 kB │ gzip:   0.14 kB
+3:51:05 AM: dist/assets/arrow-left-COMOvgpp.js          0.15 kB │ gzip:   0.15 kB
+3:51:05 AM: dist/assets/search-Dy16Aboy.js              0.16 kB │ gzip:   0.16 kB
+3:51:05 AM: dist/assets/phone-CfYG1HN-.js               0.31 kB │ gzip:   0.22 kB
+3:51:05 AM: dist/assets/trash-2-Dio2vBE6.js             0.32 kB │ gzip:   0.21 kB
+3:51:05 AM: dist/assets/user-CtPiEjfX.js                0.34 kB │ gzip:   0.27 kB
+3:51:05 AM: dist/assets/terminal-swIgQiYG.js            0.52 kB │ gzip:   0.31 kB
+3:51:05 AM: dist/assets/rolldown-runtime-Bh1tDfsg.js    0.56 kB │ gzip:   0.36 kB
+3:51:05 AM: dist/assets/input-B6RIay9l.js               0.66 kB │ gzip:   0.40 kB
+3:51:05 AM: dist/assets/label-BVYaF4sQ.js               1.26 kB │ gzip:   0.73 kB
+3:51:05 AM: dist/assets/dossier-wZpf8dDE.js             1.83 kB │ gzip:   1.02 kB
+3:51:05 AM: dist/assets/module._id-Cbwpzr5b.js          3.57 kB │ gzip:   1.36 kB
+3:51:05 AM: dist/assets/react-dom-iw9BApjo.js           3.59 kB │ gzip:   1.36 kB
+3:51:05 AM: dist/assets/profile-BZMyNfTw.js             3.74 kB │ gzip:   1.57 kB
+3:51:05 AM: dist/assets/synx-data-DhE-UE9I.js           3.95 kB │ gzip:   1.36 kB
+3:51:05 AM: dist/assets/dashboard-Pf5uFv7K.js           4.08 kB │ gzip:   1.73 kB
+3:51:05 AM: dist/assets/routes-DOqdj9ex.js              4.94 kB │ gzip:   2.12 kB
+3:51:05 AM: dist/assets/synx-search-C8GG8wxY.js         5.35 kB │ gzip:   2.14 kB
+3:51:05 AM: dist/assets/planilha-iK9xgus2.js            5.89 kB │ gzip:   2.16 kB
+3:51:05 AM: dist/assets/settings-BepRddZr.js            7.73 kB │ gzip:   2.60 kB
+3:51:05 AM: dist/assets/useNavigate-1x8qrOHf.js         8.10 kB │ gzip:   3.07 kB
+3:51:05 AM: dist/assets/admin-YDpiM0sm.js              10.23 kB │ gzip:   3.03 kB
+3:51:05 AM: dist/assets/AuthGuard-Ds9LZH1J.js          11.54 kB │ gzip:   4.23 kB
+3:51:05 AM: dist/assets/module._id-BK0W9pr5.js         30.28 kB │ gzip:  11.02 kB
+3:51:05 AM: dist/assets/dist-C5jjLyF2.js               32.62 kB │ gzip:   9.15 kB
+3:51:05 AM: dist/assets/theme-KpAEEKe-.js              38.72 kB │ gzip:  13.12 kB
+3:51:05 AM: dist/assets/index-BcJ4daDx.js             310.61 kB │ gzip:  97.24 kB
+3:51:05 AM: dist/assets/osint-DPlEg8Mg.js             534.65 kB │ gzip: 161.28 kB
+3:51:05 AM: ✓ built in 2.87s
+3:51:05 AM: [plugin builtin:vite-reporter] 
+3:51:05 AM: (!) Some chunks are larger than 500 kB after minification. Consider:
+3:51:05 AM: - Using dynamic import() to code-split the application
+3:51:05 AM: - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+3:51:05 AM: - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+3:51:05 AM: vite v8.1.5 building ssr environment for production...
+3:51:05 AM: 
+3:51:05 AM: transforming...✓ 97 modules transformed.
+3:51:05 AM: rendering chunks...
+3:51:05 AM: computing gzip size...
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-1-B1WsfqHQ.png                    492.64 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-4-DaMF5dvu.png                    493.37 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-3-sevUr0qs.png                    504.43 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-6-BGcY2Yr8.png                    554.32 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-2-D6UqrRbK.png                    572.83 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/anime-5-DQju_0zi.png                    589.82 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/styles-DW18XVO8.css                     108.10 kB │ gzip: 17.56 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/empty-plugin-adapters-D9UWiqvJ.js         0.22 kB │ gzip:  0.16 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/label-ONQM3-w5.js                         0.64 kB │ gzip:  0.38 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/input-DmUIRuNR.js                         0.75 kB │ gzip:  0.45 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/module._id-Bd8CcWTT.js                    0.92 kB │ gzip:  0.44 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/start-RKGGYzjZ.js                         1.57 kB │ gzip:  0.71 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/dossier-DHD3caKO.js                       2.79 kB │ gzip:  1.29 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/createCsrfMiddleware-B2To0gPJ.js          3.19 kB │ gzip:  1.01 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DhTso1DC.js    3.74 kB │ gzip:  0.89 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/dashboard-BR0b_Iod.js                     4.08 kB │ gzip:  1.51 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/profile-8PN6ElaE.js                       4.52 kB │ gzip:  1.51 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/index.js                                         4.61 kB │ gzip:  1.92 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/module._id-BH1HwJu8.js                    4.67 kB │ gzip:  1.47 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/synx-data-JQJP2j8b.js                     5.02 kB │ gzip:  1.60 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/synx-search-riyGCtbe.js                   7.84 kB │ gzip:  2.44 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/routes-C5rCbXEq.js                        8.02 kB │ gzip:  2.77 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/planilha-zZiRBAKe.js                      8.36 kB │ gzip:  2.55 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/settings-DqoCIaGK.js                     10.38 kB │ gzip:  2.69 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/theme-FerSx98X.js                        12.26 kB │ gzip:  4.10 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/AuthGuard-NFVKJhcC.js                    14.36 kB │ gzip:  4.14 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/admin-ddCpT83z.js                        14.74 kB │ gzip:  3.47 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/router-bSaCK4ma.js                       16.95 kB │ gzip:  4.79 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/osint-BDQycEyp.js                        32.90 kB │ gzip:  8.43 kB
+3:51:05 AM: node_modules/.nitro/vite/services/ssr/assets/server-Bnhdb6z7.js                       56.40 kB │ gzip: 14.53 kB
+3:51:05 AM: ✓ built in 817ms
+3:51:05 AM: [start] [nitro] Building [Nitro] (preset: `netlify`, compatibility: `2026-08-04`)
+3:51:05 AM: [success] [nitro] Generated public dist
+3:51:05 AM: vite v8.1.5 building nitro environment for production...
+3:51:05 AM: 
+3:51:06 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+3:51:06 AM: transforming...✓ 1937 modules transformed.
+3:51:06 AM: rendering chunks...
+3:51:06 AM: computing gzip size...
+3:51:06 AM: .netlify/functions-internal/server/_ssr/empty-plugin-adapters-D9UWiqvJ.mjs         0.23 kB │ gzip:   0.16 kB
+3:51:06 AM: .netlify/functions-internal/server/_chunks/ssr-renderer.mjs                        0.60 kB │ gzip:   0.36 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/tanstack__react-query.mjs                 0.79 kB │ gzip:   0.38 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/label-ONQM3-w5.mjs                         0.91 kB │ gzip:   0.47 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/module._id-Bd8CcWTT.mjs                    0.99 kB │ gzip:   0.49 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/input-DmUIRuNR.mjs                         1.08 kB │ gzip:   0.57 kB
+3:51:06 AM: .netlify/functions-internal/server/_runtime.mjs                                    1.27 kB │ gzip:   0.64 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/start-RKGGYzjZ.mjs                         1.53 kB │ gzip:   0.70 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/dossier-DHD3caKO.mjs                       2.83 kB │ gzip:   1.32 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/createCsrfMiddleware-B2To0gPJ.mjs          3.11 kB │ gzip:   1.01 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/class-variance-authority+clsx.mjs         3.17 kB │ gzip:   1.24 kB
+3:51:06 AM: .netlify/functions-internal/server/_tanstack-start-manifest_v-DhTso1DC.mjs         3.80 kB │ gzip:   0.92 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/ssr.mjs                                    4.55 kB │ gzip:   1.92 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/dashboard-BR0b_Iod.mjs                     4.87 kB │ gzip:   1.60 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/synx-data-JQJP2j8b.mjs                     5.06 kB │ gzip:   1.63 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/profile-8PN6ElaE.mjs                       5.34 kB │ gzip:   1.61 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/module._id-BH1HwJu8.mjs                    5.50 kB │ gzip:   1.56 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/routes-C5rCbXEq.mjs                        8.88 kB │ gzip:   2.89 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/synx-search-riyGCtbe.mjs                   9.22 kB │ gzip:   2.60 kB
+3:51:06 AM: .netlify/functions-internal/server/main.mjs                                        9.67 kB │ gzip:   3.23 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/planilha-zZiRBAKe.mjs                      9.82 kB │ gzip:   2.69 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/tanstack__history.mjs                    12.09 kB │ gzip:   3.48 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/settings-DqoCIaGK.mjs                     12.11 kB │ gzip:   2.84 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/theme-FerSx98X.mjs                        12.62 kB │ gzip:   4.18 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/@radix-ui/react-label+[...].mjs          15.31 kB │ gzip:   4.20 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/AuthGuard-NFVKJhcC.mjs                    15.88 kB │ gzip:   4.25 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/ocache+ohash.mjs                         15.99 kB │ gzip:   4.78 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/unstorage.mjs                            16.76 kB │ gzip:   4.35 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/@radix-ui/react-compose-refs+[...].mjs   16.79 kB │ gzip:   4.66 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/admin-ddCpT83z.mjs                        17.29 kB │ gzip:   3.64 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/router-bSaCK4ma.mjs                       17.35 kB │ gzip:   4.86 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/h3-v2+rou3+srvx.mjs                      18.22 kB │ gzip:   4.98 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/lucide-react.mjs                         25.89 kB │ gzip:   5.28 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/h3+rou3+srvx.mjs                         28.44 kB │ gzip:   7.61 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/osint-BDQycEyp.mjs                        37.14 kB │ gzip:   8.65 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/tanstack__query-core.mjs                 48.17 kB │ gzip:  10.70 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/sonner.mjs                               51.97 kB │ gzip:  11.77 kB
+3:51:06 AM: .netlify/functions-internal/server/_ssr/server-Bnhdb6z7.mjs                       54.70 kB │ gzip:  14.37 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/@tanstack/router-core+[...].mjs          80.13 kB │ gzip:  20.13 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/tailwind-merge.mjs                       88.13 kB │ gzip:  15.66 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/vis-data.mjs                            340.54 kB │ gzip:  69.88 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/@tanstack/react-router+[...].mjs        664.05 kB │ gzip: 138.84 kB
+3:51:06 AM: .netlify/functions-internal/server/_libs/vis-network.mjs                         971.23 kB │ gzip: 202.69 kB
+3:51:06 AM: ✓ built in 537ms
+3:51:06 AM: [info] Generated .netlify/functions-internal/nitro.json
+3:51:06 AM: [success] [nitro] You can preview this build using `npx vite preview`
+3:51:06 AM: The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+3:51:06 AM: [prerender] Prerendering pages...
+3:51:06 AM: [prerender] Concurrency: 3
+3:51:06 AM: [prerender] Crawling: /
+3:51:06 AM: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/opt/build/repo/dist/server/server.js' imported from /opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/vite/preview-server-plugin/plugin.js
+3:51:06 AM:     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+3:51:06 AM:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+3:51:06 AM:     at defaultResolve (node:internal/modules/esm/resolve:985:11)
+3:51:06 AM:     at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)
+3:51:06 AM:     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:783:38)
+3:51:06 AM:     at nextStep (node:internal/modules/customization_hooks:189:26)
+3:51:06 AM:     at Ie (file:///opt/build/repo/node_modules/@tailwindcss/node/dist/index.mjs:1:539)
+3:51:06 AM:     at nextStep (node:internal/modules/customization_hooks:189:26)
+3:51:06 AM:     at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+3:51:06 AM:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:803:14)
+3:51:06 AM: [prerender] Prerendered 0 pages:
+3:51:06 AM: file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/prerender.js:81
+3:51:06 AM: 						throw new Error(`Failed to fetch ${page.path}: ${res.statusText}`, { cause: res });
+3:51:06 AM: 						      ^
+3:51:06 AM: Error: Failed to fetch /: Internal Server Error
+3:51:06 AM:     at file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/prerender.js:81:13
+3:51:06 AM:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+3:51:06 AM:     at async file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/queue.js:35:12 {
+3:51:06 AM:   [cause]: Response {
+3:51:06 AM:     [Symbol(state)]: {
+3:51:06 AM:       aborted: false,
+3:51:06 AM:       rangeRequested: false,
+3:51:06 AM:       timingAllowPassed: true,
+3:51:06 AM:       requestIncludesCredentials: true,
+3:51:06 AM:       type: 'default',
+3:51:06 AM:       status: 500,
+3:51:06 AM:       timingInfo: {
+3:51:06 AM:         startTime: 5815.54024,
+3:51:06 AM:         redirectStartTime: 0,
+3:51:06 AM:         redirectEndTime: 0,
+3:51:06 AM:         postRedirectStartTime: 5815.54024,
+3:51:06 AM:         finalServiceWorkerStartTime: 0,
+3:51:06 AM:         finalNetworkResponseStartTime: 5830.806562,
+3:51:06 AM:         finalNetworkRequestStartTime: 5821.845312,
+3:51:06 AM:         endTime: 0,
+3:51:06 AM:         encodedBodySize: 492,
+3:51:06 AM:         decodedBodySize: 0,
+3:51:06 AM:         finalConnectionTimingInfo: {
+3:51:06 AM:           domainLookupStartTime: 5815.54024,
+3:51:06 AM:           domainLookupEndTime: 5815.54024,
+3:51:06 AM:           connectionStartTime: 5815.54024,
+3:51:06 AM:           connectionEndTime: 5815.54024,
+3:51:06 AM:           secureConnectionStartTime: 5815.54024,
+3:51:06 AM:           ALPNNegotiatedProtocol: undefined
+3:51:06 AM:         }
+3:51:06 AM:       },
+3:51:06 AM:       cacheState: '',
+3:51:06 AM:       statusText: 'Internal Server Error',
+3:51:06 AM:       headersList: HeadersList {
+3:51:06 AM:         cookies: null,
+3:51:06 AM:         [Symbol(headers map)]: Map(9) {
+3:51:06 AM:           'vary' => { name: 'vary', value: 'Origin' },
+3:51:06 AM:           'content-security-policy' => {
+3:51:06 AM:             name: 'content-security-policy',
+3:51:06 AM:             value: "default-src 'none'"
+3:51:06 AM:           },
+3:51:06 AM:           'x-content-type-options' => { name: 'x-content-type-options', value: 'nosniff' },
+3:51:06 AM:           'content-type' => { name: 'content-type', value: 'text/html; charset=utf-8' },
+3:51:06 AM:           'content-encoding' => { name: 'content-encoding', value: 'gzip' },
+3:51:06 AM:           'date' => { name: 'date', value: 'Tue, 04 Aug 2026 06:51:06 GMT' },
+3:51:06 AM:           'connection' => { name: 'connection', value: 'keep-alive' },
+3:51:06 AM:           'keep-alive' => { name: 'keep-alive', value: 'timeout=5' },
+3:51:06 AM:           'transfer-encoding' => { name: 'transfer-encoding', value: 'chunked' }
+3:51:06 AM:         },
+3:51:06 AM:         [Symbol(headers map sorted)]: null
+3:51:06 AM:       },
+3:51:06 AM:       urlList: [ http://localhost:41459/ ],
+3:51:06 AM:       body: {
+3:51:06 AM:         stream: ReadableStream {
+3:51:06 AM:           [Symbol(kType)]: 'ReadableStream',
+3:51:06 AM:           [Symbol(kState)]: [Object: null prototype] {
+3:51:06 AM:             disturbed: false,
+3:51:06 AM:             reader: undefined,
+3:51:06 AM:             state: 'readable',
+3:51:06 AM:             storedError: undefined,
+3:51:06 AM:             transfer: [Object: null prototype],
+3:51:06 AM:             controller: [ReadableByteStreamController]
+3:51:06 AM:           },
+3:51:06 AM:           [Symbol(nodejs.webstream.isClosedPromise)]: {
+3:51:06 AM:             promise: [Promise],
+3:51:06 AM:             resolve: [Function (anonymous)],
+3:51:06 AM:             reject: [Function (anonymous)]
+3:51:06 AM:           },
+3:51:06 AM:           [Symbol(nodejs.webstream.controllerErrorFunction)]: [Function (anonymous)]
+3:51:06 AM:         },
+3:51:06 AM:         source: null,
+3:51:06 AM:         length: null
+3:51:06 AM:       }
+3:51:06 AM:     },
+3:51:06 AM:     [Symbol(headers)]: Headers {}
+3:51:06 AM:   }
+3:51:06 AM: }
+3:51:06 AM: Node.js v22.23.2
+3:51:06 AM: ​
+3:51:06 AM: "build.command" failed                                        
+3:51:06 AM: ────────────────────────────────────────────────────────────────
+3:51:06 AM: ​
+3:51:06 AM:   Error message
+3:51:06 AM:   Command failed with exit code 1: vite build && node scripts/postbuild.mjs (https://ntl.fyi/exit-code-1)
+3:51:06 AM: ​
+3:51:06 AM:   Error location
+3:51:06 AM:   In build.command from netlify.toml:
+3:51:06 AM:   vite build && node scripts/postbuild.mjs
+3:51:06 AM: ​
+3:51:06 AM:   Resolved config
+3:51:06 AM:   build:
+3:51:06 AM:     command: vite build && node scripts/postbuild.mjs
+3:51:06 AM:     commandOrigin: config
+3:51:06 AM:     environment:
+3:51:06 AM:       - NODE_VERSION
+3:51:06 AM:     publish: /opt/build/repo/dist/client
+3:51:06 AM:     publishOrigin: config
+3:51:06 AM:   functionsDirectory: /opt/build/repo/dist/server
+3:51:06 AM:   headers:
+3:51:06 AM:     - for: /assets/*
+3:51:06 AM:       values:
+3:51:06 AM:         Cache-Control: public, max-age=31536000, immutable
+3:51:06 AM:   headersOrigin: config
+3:51:06 AM:   redirects:
+3:51:06 AM:     - from: /api/*
+3:51:06 AM:       status: 200
+3:51:06 AM:       to: /.netlify/functions/server
+3:51:06 AM:     - from: /*
+3:51:06 AM:       status: 200
+3:51:06 AM:       to: /index.html
+3:51:06 AM:   redirectsOrigin: config
+3:51:06 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+3:51:06 AM: Failing build: Failed to build site
+3:51:07 AM: Finished processing build request in 19.14s

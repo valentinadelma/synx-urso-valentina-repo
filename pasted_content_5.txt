@@ -1,0 +1,73 @@
+4:16:53 AM: Netlify Build                                                 
+4:16:53 AM: ────────────────────────────────────────────────────────────────
+4:16:53 AM: ​
+4:16:53 AM: ❯ Version
+4:16:53 AM:   @netlify/build 36.2.4
+4:16:53 AM: ​
+4:16:53 AM: ❯ Flags
+4:16:53 AM:   accountId: 6a718eac1a25f0044de828be
+4:16:53 AM:   baseRelDir: true
+4:16:53 AM:   buildId: 6a7191d7b5fa962ba67030e0
+4:16:53 AM:   deployId: 6a7191d7b5fa962ba67030e2
+4:16:53 AM: ​
+4:16:53 AM: ❯ Current directory
+4:16:53 AM:   /opt/build/repo
+4:16:53 AM: ​
+4:16:53 AM: ❯ Config file
+4:16:53 AM:   /opt/build/repo/netlify.toml
+4:16:53 AM: ​
+4:16:53 AM: ❯ Context
+4:16:53 AM:   production
+4:16:53 AM: ​
+4:16:53 AM: build.command from netlify.toml                               
+4:16:53 AM: ────────────────────────────────────────────────────────────────
+4:16:53 AM: ​
+4:16:53 AM: $ vite build && node scripts/postbuild.mjs
+4:16:54 AM: error during build:
+4:16:54 AM: Error: Could not resolve entry for router entry: router in /opt/build/repo/src
+4:16:54 AM:     at resolveEntry (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/resolve-entries.js:30:45)
+4:16:54 AM:     at resolveStartEntryPlan (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/planning.js:63:25)
+4:16:54 AM:     at getResolvedEntryPlan (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/config-context.js:33:28)
+4:16:54 AM:     at getConfig (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/config-context.js:47:3)
+4:16:54 AM:     at BasicMinimalPluginContext.config (file:///opt/build/repo/node_modules/@tanstack/start-plugin-core/dist/esm/vite/plugin.js:55:29)
+4:16:54 AM:     at runConfigHook (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:37038:42)
+4:16:54 AM:     at resolveConfig (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:36458:17)
+4:16:54 AM:     at async createBuilder (file:///opt/build/repo/node_modules/vite/dist/node/chunks/node.js:34066:17)
+4:16:54 AM:     at async CAC.<anonymous> (file:///opt/build/repo/node_modules/vite/dist/node/cli.js:765:19)
+4:16:55 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+4:16:55 AM: ​
+4:16:55 AM: "build.command" failed                                        
+4:16:55 AM: ────────────────────────────────────────────────────────────────
+4:16:55 AM: ​
+4:16:55 AM:   Error message
+4:16:55 AM:   Command failed with exit code 1: vite build && node scripts/postbuild.mjs (https://ntl.fyi/exit-code-1)
+4:16:55 AM: ​
+4:16:55 AM:   Error location
+4:16:55 AM:   In build.command from netlify.toml:
+4:16:55 AM:   vite build && node scripts/postbuild.mjs
+4:16:55 AM: ​
+4:16:55 AM:   Resolved config
+4:16:55 AM:   build:
+4:16:55 AM:     command: vite build && node scripts/postbuild.mjs
+4:16:55 AM:     commandOrigin: config
+4:16:55 AM:     environment:
+4:16:55 AM:       - NODE_VERSION
+4:16:55 AM:     publish: /opt/build/repo/dist/client
+4:16:55 AM:     publishOrigin: config
+4:16:55 AM:   functionsDirectory: /opt/build/repo/netlify/functions
+4:16:55 AM:   headers:
+4:16:55 AM:     - for: /assets/*
+4:16:55 AM:       values:
+4:16:55 AM:         Cache-Control: public, max-age=31536000, immutable
+4:16:55 AM:   headersOrigin: config
+4:16:55 AM:   redirects:
+4:16:55 AM:     - from: /api/proxy
+4:16:55 AM:       status: 200
+4:16:55 AM:       to: /.netlify/functions/server
+4:16:55 AM:     - from: /*
+4:16:55 AM:       status: 200
+4:16:55 AM:       to: /index.html
+4:16:55 AM:   redirectsOrigin: config
+4:16:55 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+4:16:55 AM: Failing build: Failed to build site
+4:16:55 AM: Finished processing build request in 14.86s
